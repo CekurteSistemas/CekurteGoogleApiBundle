@@ -78,7 +78,190 @@
             <argument>%cekurte_google_api_developer_key%</argument>
             <argument>%cekurte_google_api_use_objects%</argument>
         </service>
+        <service id="cekurte_google_api.adexchangebuyer" class="%cekurte_google_api.client.adexchangebuyer.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.adexchangeseller" class="%cekurte_google_api.client.adexchangeseller.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.adsense" class="%cekurte_google_api.client.adsense.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.adsensehost" class="%cekurte_google_api.client.adsensehost.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.admin" class="%cekurte_google_api.client.admin.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.analytics" class="%cekurte_google_api.client.analytics.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.androidpublisher" class="%cekurte_google_api.client.androidpublisher.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.appstate" class="%cekurte_google_api.client.appstate.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.appsactivity" class="%cekurte_google_api.client.appsactivity.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.audit" class="%cekurte_google_api.client.audit.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.bigquery" class="%cekurte_google_api.client.bigquery.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.blogger" class="%cekurte_google_api.client.blogger.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.books" class="%cekurte_google_api.client.books.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.calendar" class="%cekurte_google_api.client.calendar.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.civicinfo" class="%cekurte_google_api.client.civicinfo.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.compute" class="%cekurte_google_api.client.compute.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.content" class="%cekurte_google_api.client.content.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.coordinate" class="%cekurte_google_api.client.coordinate.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.customsearch" class="%cekurte_google_api.client.customsearch.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.datastore" class="%cekurte_google_api.client.datastore.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.dfareporting" class="%cekurte_google_api.client.dfareporting.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.directory" class="%cekurte_google_api.client.directory.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.dns" class="%cekurte_google_api.client.dns.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.doubleclickbidmanager" class="%cekurte_google_api.client.doubleclickbidmanager.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.doubleclicksearch" class="%cekurte_google_api.client.doubleclicksearch.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.drive" class="%cekurte_google_api.client.drive.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.freebase" class="%cekurte_google_api.client.freebase.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.fusiontables" class="%cekurte_google_api.client.fusiontables.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.games" class="%cekurte_google_api.client.games.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.gamesmanagement" class="%cekurte_google_api.client.gamesmanagement.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.genomics" class="%cekurte_google_api.client.genomics.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
         <service id="cekurte_google_api.gmail" class="%cekurte_google_api.client.gmail.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.groupsmigration" class="%cekurte_google_api.client.groupsmigration.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.groupssettings" class="%cekurte_google_api.client.groupssettings.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.identitytoolkit" class="%cekurte_google_api.client.identitytoolkit.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.licensing" class="%cekurte_google_api.client.licensing.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.manager" class="%cekurte_google_api.client.manager.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.mapsengine" class="%cekurte_google_api.client.mapsengine.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.mirror" class="%cekurte_google_api.client.mirror.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.oauth2" class="%cekurte_google_api.client.oauth2.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.orkut" class="%cekurte_google_api.client.orkut.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.pagespeedonline" class="%cekurte_google_api.client.pagespeedonline.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.plus" class="%cekurte_google_api.client.plus.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.plusdomains" class="%cekurte_google_api.client.plusdomains.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.prediction" class="%cekurte_google_api.client.prediction.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.pubsub" class="%cekurte_google_api.client.pubsub.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.qpxexpress" class="%cekurte_google_api.client.qpxexpress.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.replicapool" class="%cekurte_google_api.client.replicapool.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.reports" class="%cekurte_google_api.client.reports.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.reseller" class="%cekurte_google_api.client.reseller.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.resourceviews" class="%cekurte_google_api.client.resourceviews.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.sqladmin" class="%cekurte_google_api.client.sqladmin.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.siteverification" class="%cekurte_google_api.client.siteverification.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.spectrum" class="%cekurte_google_api.client.spectrum.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.storage" class="%cekurte_google_api.client.storage.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.taskqueue" class="%cekurte_google_api.client.taskqueue.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.tasks" class="%cekurte_google_api.client.tasks.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.translate" class="%cekurte_google_api.client.translate.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.urlshortener" class="%cekurte_google_api.client.urlshortener.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.webfonts" class="%cekurte_google_api.client.webfonts.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.youtube" class="%cekurte_google_api.client.youtube.class%">
+            <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
+        </service>
+        <service id="cekurte_google_api.youtubeanalytics" class="%cekurte_google_api.client.youtubeanalytics.class%">
             <argument type="expression">service('cekurte_google_api.service').getClient()</argument>
         </service>
     </services>
