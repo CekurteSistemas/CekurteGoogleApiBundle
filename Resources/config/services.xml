@@ -14,6 +14,7 @@
         <parameter key="cekurte_google_api.client.androidpublisher.class">Google_Service_AndroidPublisher</parameter>
         <parameter key="cekurte_google_api.client.appstate.class">Google_Service_AppState</parameter>
         <parameter key="cekurte_google_api.client.appsactivity.class">Google_Service_Appsactivity</parameter>
+        <parameter key="cekurte_google_api.client.audit.class">Google_Service_Audit</parameter>
         <parameter key="cekurte_google_api.client.bigquery.class">Google_Service_Bigquery</parameter>
         <parameter key="cekurte_google_api.client.blogger.class">Google_Service_Blogger</parameter>
         <parameter key="cekurte_google_api.client.books.class">Google_Service_Books</parameter>
