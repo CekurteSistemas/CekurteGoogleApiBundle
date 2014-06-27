@@ -1,6 +1,6 @@
 # Configuração
 
-No seu arquivo de configuração para o ambiente de desenvolvimento `app/config/parameters.yml` adicione a seguinte entrada:
+No seu arquivo de configuração para o ambiente de desenvolvimento `app/config/parameters.yml` adicione as seguintes configurações:
 
 ```yml
 # app/config/parameters.yml
@@ -15,7 +15,7 @@ cekurte_google_api_developer_key:       [DEVELOPER_KEY]
 cekurte_google_api_use_objects:         true
 ```
 
-Em **cekurte_google_api_use_objects** você poderá colocar um valor booleando (*true* ou *false*), sendo que, se for informado true a API converterá o retorno para objetos, do contrário, o retorno será um array associativo.
+Em **cekurte_google_api_use_objects** você poderá colocar um valor booleano (*true* ou *false*), sendo que, se for informado true a API converterá o retorno das requisições realizadas em objetos, do contrário, o retorno será convertido em um array associativo.
 
 ## Notas:
 
