@@ -28,6 +28,9 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('cekurte_google_api_redirect_uri')->end()
                 ->scalarNode('cekurte_google_api_developer_key')->end()
                 ->scalarNode('cekurte_google_api_use_objects')->end()
+                ->scalarNode('cekurte_google_api_use_state')->end()
+                ->scalarNode('cekurte_google_api_use_access_type')->end()
+                ->scalarNode('cekurte_google_api_approval_prompt')->end()
             ->end()
         ;
 
